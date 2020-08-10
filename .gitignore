@@ -2,3 +2,4 @@ passenger.*
 test
 visuals
 .DS_Store
+node_modules

@@ -149,7 +149,7 @@ FractalLab.prototype = {
 		
 		this.mouseWheel = function (event) {
 			if (self.keymove) {
-				event.preventDefault();
+				// event.preventDefault();
 				
 				var delta = event.wheelDelta || event.detail;
 				
@@ -230,7 +230,7 @@ FractalLab.prototype = {
 			h = p.height(),
 			a = w / h;
             
-		if (resolution === 'render' && this.renderflies.job) {
+		if (resolution === 'render' &&  this.renderflies && this.renderflies.job) {
             var width = this.renderflies.job.width;
             var height = this.renderflies.job.height;
             p.hide();

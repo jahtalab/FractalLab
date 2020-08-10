@@ -1,6 +1,6 @@
 /*jslint nomen: false*/
 /*global window, jQuery, document, $, console, FractalLab, IndexedLocalStorage, prompt, alert, confirm, _, PresetManager, Image, localStorage*/
-var LIBRARY_VERSION = 4;
+var LIBRARY_VERSION = 5;
 
 var fractal_library = function (fractal_lab) {
 	var fractal_index,
